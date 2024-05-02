@@ -33,3 +33,4 @@ staged --"git commit"--> traked
 traked --"изменяем файл"--> modifire
 modifire --"git add"--> staged
 ```
+
