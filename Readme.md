@@ -24,3 +24,12 @@
 ### файлы которые зафиксированные $git commit
 ## Modified (изменённый)
 ### данный статус означает что команда git сравнивал содержимое файла с последним сохранённым версией и нашёл отличие
+
+```mermaid
+%% Схему изменения статусов
+graph LR
+untacked --"git add"--> staged
+staged --"git commit"--> traked
+traked --"изменяем файл"--> modifire
+modifire --"git add"--> staged
+```
